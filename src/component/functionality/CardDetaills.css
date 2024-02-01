@@ -1,0 +1,114 @@
+.about-details-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.card-img img {
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 0px 0rem 3rem #112936;
+  border-radius: 20px;
+
+  max-width: 500px;
+  height: auto;
+}
+
+.filter-users {
+  margin-top: 1.5rem;
+
+  padding-bottom: 48px;
+}
+
+#user-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding: -10px;
+  /* position: fixed; */
+  font-family: 'Poppins';
+  border-color:black;
+  font-size: x-small;
+  font-weight: 500;
+  height: 71px;
+  /* z-index: 2; */
+  /* width: 328px; */
+  margin-top: 25px;
+}
+
+#user-item span {
+  margin-left: 0.5rem;
+}
+.spinners {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid  #112936;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin  1.5s linear infinite;
+  margin: 0 auto;
+
+}
+
+@media screen and (max-width: 768px) {
+  .card-img img {
+    max-width: 100%;
+  }
+}
+/* Color Variables */
+:root {
+  --success-color: #4bd67b;
+  --info-color: #71b2df;
+  --warning-color: #f5c76f;
+  --error-color: #f57e7c;
+}
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+}
+
+@media  (max-width: 768px) {
+  .about-details-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+    position: inherit;
+}
+#user-item {
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: -10px;
+    /* position: fixed; */
+    font-family: 'Poppins';
+    border-color: black;
+    font-size: x-small;
+    /* min-width: 228px; */
+    font-weight: 500;
+    width: 282px;
+    margin-left: 63px;
+    height: 55px;
+    /* z-index: 2; */
+    /* width: 200px; */
+    margin-top: 20px;
+}
+
+
+  }

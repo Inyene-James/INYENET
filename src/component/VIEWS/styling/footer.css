@@ -1,0 +1,60 @@
+/* Footer Styles */
+.footer {
+  background-color:  #052044;
+  color: #fff;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.icons:hover {
+  color: #71b2df;
+}
+
+.footer-bottom p {
+  font-size: 16px;
+  margin-top: 10px;
+  flex-basis: 100%;
+  text-align: center;
+}
